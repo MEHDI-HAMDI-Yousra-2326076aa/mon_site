@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVHY</title>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/panda-bear.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="lets-start">
+        <h1>Need a new refresh?</h1>
+        <a class="retour" href="index.html"><i class="ri-arrow-left-s-line"></i></a>
+    </header>
+    <main class="Abonnement">
+        <p class="description">Discover a better life with our exclusive subscription, designed to nurture your mind, body, and soul. <br>
+
+            <img src="assets/champion.png" alt="champion"> PERSONALIZED PSYCHOLOGICAL SUPPORT: Our team of qualified professionals will guide you on your personal development journey. Overcome obstacles, strengthen your resilience, and achieve your goals with tailored psychological support. <br>
+            
+            <img src="assets/meditation.png" alt="meditation"> MEDITATION AND SOOTHING YOGA SESSIONS: Release the stress of daily life through guided meditation sessions and calming yoga. Rediscover inner harmony, mental clarity, and positive energy. <br>
+            
+            <img src="assets/muscle.png" alt="force"> PILATES FOR INNER AND OUTER STRENGTH: Sculpt your body and strengthen your mind with our dynamic pilates sessions. Improve your posture, build strength, and feel increased vitality. <br>
+            
+            <img src="assets/healthy-food.png" alt="food"> HEALTHY AND BALANCED MEALS: Nourish your body with our selection of healthy, balanced, and delicious meals. Designed by nutritionists, our dishes will boost your energy while promoting a balanced diet. <br>
+            
+            <img src="assets/happy.png" alt="sunny"> HEALTHY LIFESTYLE: Adopt a healthy lifestyle with our practical tips. From revitalizing morning routines to improved sleep habits, transform your daily life for a fulfilling and vibrant existence. <br>
+            
+            Join our dedicated well-being community today!  Subscribe to our subscription and embark on your journey towards a more balanced, fulfilling life full of vitality.
+        </p>
+            <form  class="souscrire" action="traitement.php" method="post">
+                <label  for="nom">Name : </label>
+                <input class="label" type="text" id="nom" name="nom" placeholder="Tom" required>
+    
+                <label for="email">Email :</label>
+                <input  class="label"  type="email" id="email" name="email" placeholder="monmail@gmail.com" required>
+                <label for="motDePasse">Pass word :</label>
+                <input  class="label" type="password" id="motDePasse" name="motDePasse" placeholder="motDePasse" required><br>
+    
+                <input id="submit" type="submit" value="Subscribe">
+            </form>
+    </main>
+</body>
+</html>
